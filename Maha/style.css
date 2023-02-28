@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    background-color: brown;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.main-text{
+    text-align: center;
+    flex-basis: 50%;
+}
+.main-photo img{
+    border-radius: 15px;
+}
+.main:hover{
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.about-us-text{
+    text-align: center;
+    flex-basis: 50%;
+}
+.about-us-img img{
+    border-radius: 15px;
+}
+.about-us:hover{
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.products-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+}
+.products-text:hover{
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+.products-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products-cards img{
+    width: 500px;
+    padding: 30px;
+}
+.products-cards:hover{
+    transition: transform 2s;
+    transform: rotate(360deg);
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.location-text{
+    text-align: center;
+    flex-basis: 50%;
+}
+.location-img img{
+    border-radius: 15px;
+}
+.location:hover{
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.contact-us-text{
+    text-align: center;
+    flex-basis: 50%;
+}
+.contact-us-img img{
+    border-radius: 15px;
+}
+.contact-us:hover{
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+}
